@@ -2,7 +2,7 @@
 
 Ember-CLI test app for ember-data-elasticsearch-kit.
 
-model/elasticsearch.js tries to make the query "http://localhost:9200/_search?user=kimchy", and returns a 400 bad request.
+model/elasticsearch.js tries to make the query to a local installation of ElasticSearch "http://localhost:9200/_search?user=kimchy", and returns a 400 bad request.
 
 The responseText is: 
 
@@ -18,6 +18,7 @@ The responseText is:
 
 You will need the following things properly installed on your computer.
 
+* [ElasticSearch](http://www.elasticsearch.org/overview/elkdownloads/)
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
